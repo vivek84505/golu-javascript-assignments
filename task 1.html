@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Task 1</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Task 1</h1>
+        <p>Assignment 1: Discount Calculator (Arithmetic + Conditional) Problem Create a function that calculates final price: Rules: If price > 1000 → 10% discount If price > 500 → 5% discount Otherwise no discount Requirements Useing arithmetic operators.</p>
+        <script>
+            function getfinalprice(price){
+              let discount = 0;
+              if(price > 1000){
+                discount = price * 0.10;
+              }else if(price > 500){
+                discount = price * 0.05;
+              }
+              let finalprice = price - discount;
+              return finalprice;
+            }
+            console.log(getfinalprice(120));
+        </script>
+    </body>
+</html>
