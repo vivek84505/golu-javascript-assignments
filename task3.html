@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Task 1</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Task 3</h1>
+
+    <p>Assignment 3: Login Access System (Logical Operators)
+Problem
+User can login if:
+username === "admin" AND password === "1234" 
+OR
+role === "superadmin" 
+Requirements
+Use && and ||
+    <script>
+      function loginaccess(username, password, role){
+        if(username === "admin" && password === "admin1234" && role === "superadmin"){
+          return "Access granted";
+        }else{
+          return "Access denied";
+        }
+      }
+      console.log(loginaccess("admin1", "admin123", "superadmin"));
+    </script>
+</body>
+</html>
